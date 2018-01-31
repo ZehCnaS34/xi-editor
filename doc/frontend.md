@@ -325,7 +325,7 @@ an abnormal exit, i.e. a plugin crash.
 
 #### update_cmds
 
-`update_cmds {"view_id": "view-id-1", "plugin", "syntect", "cmds": [Command]}`
+`update_cmds {"view_id": "view-id-1", "plugin": "syntect", "cmds": [Command]}`
 
 Notifies the client of a change in the available commands for a given plugin.
 The `cmds` field is a list of all commands currently available to this plugin.
